@@ -13,7 +13,7 @@
 - Node
 - CSV Parse
 
-# FUNCIONAMENTO:
+## FUNCIONAMENTO:
 - Faça o fork do projeto ou clone
 - Execute o projeto com o comando: 
   ```
