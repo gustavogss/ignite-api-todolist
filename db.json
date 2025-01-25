@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {
+      "id": "a0db7a18-4598-46a9-841e-44d926d72490",
+      "title": "Estudar",
+      "description": "Acordar às 07:00h",
+      "completed_at": null,
+      "created_at": "2025-01-25T16:36:25.702Z",
+      "updated_at": "2025-01-25T16:39:09.024Z"
+    }
+  ]
+}
