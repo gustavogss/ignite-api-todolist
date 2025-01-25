@@ -1,38 +1,30 @@
-<p align="center">
-  <img alt="Rocketseat Education" src="https://avatars.githubusercontent.com/u/69590972?s=200&v=4" width="100px" />
-</p>
+# IGNITE API TODOLIST
+- Api para cadastro de tarefas
+- 1º Desafio da Trilha NodeJs do programa Ignite da Rocketseat
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Rocketseat&message=Education&color=8257e5&labelColor=202024" alt="Rocketseat Project" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257e5&labelColor=202024" alt="License"></a>
-</p>
+## Features :rocket:
+- Cadastro de Tarefas (POST /tasks)
+- Listagem de Tarefas (GET /tasks)
+- Atualização de Tarefas (PUT /tasks/id)
+- Pesquisa de Tarefas (GET /tasks)
+- Deleção de Tarefas (DELETE /tasks/id)
 
+## Stacks :robot:
+- Node
+- CSV Parse
 
-## 💻 Projeto
-
-challenge-ignite-nodejs-01-fundamentos-nodejs
-
-## 📝 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
-  Feito com 💜 by Rocketseat
-</p>
-
-
-<!--START_SECTION:footer-->
-
-<br />
-<br />
-
-<p align="center">
-  <a href="https://discord.gg/rocketseat" target="_blank">
-    <img align="center" src="https://storage.googleapis.com/golden-wind/comunidade/rodape.svg" alt="banner"/>
-  </a>
-</p>
-
-<!--END_SECTION:footer-->
-
+# FUNCIONAMENTO:
+- Faça o fork do projeto ou clone
+- Execute o projeto com o comando: 
+  '''
+  npm run dev
+  '''
+- Utilize em qualquer ferramenta para testar APIs: Insomnia, Postman
+- A aplicação está rodando na porta 3333 por padrão, então quando for testar as rotas:
+  ''''
+  Criar Tarefas: localhost:3333/tasks (Adicione no Body o title, e a description da tasks)
+  Listar Tarefas: localhost:3333/tasks
+  Atualizar Tarefa: localhost:3333/tasks/id_da_tarefa (Atualize no Body o title, e a description da tasks)
+  Pesquisa Tarefa: localhost:3333/tasks (Pesquise na Query pelo title da task)
+  Deletar Tarefa: localhost:3333/tasks/id_da_tarefa
+  ''''
